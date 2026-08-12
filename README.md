@@ -15,6 +15,7 @@ I build distributed agent runtimes, real-time voice streaming pipelines, sub-mil
 | [**PromptShield**](https://github.com/fazalshai/promptshield) | `C#` `.NET 8` `YARP` | **Enterprise AI Gateway:** High-performance reverse proxy built on YARP. Intercepts OpenAI JSON payloads to execute regex jailbreak filters, bi-directional PII masking, and trigram Jaccard caches. |
 | [**EchoAgent**](https://github.com/fazalshai/echoagent) | `Go` `WebSockets` | **Streaming Voice AI Infrastructure:** Multiplexes audio PCM chunks over WebSockets. Implements RMS-based VAD (Voice Activity Detection) and barge-in interruption to flush active TTS audio buffers. |
 | [**MiniRedis**](https://github.com/fazalshai/miniredis) | `Go` `net (TCP)` | **In-Memory Database from Scratch:** Single-process TCP database implementing raw REdis Serialization Protocol (RESP) parser and concurrent `sync.Map` storage. Compatible with standard `redis-cli`. |
+| [**SemanticCache**](https://github.com/fazalshai/semanticcache) | `Rust` `Axum` `Tokio` | **Vector Cache Service:** Sub-millisecond concurrent vector cache. Evaluates similarity of dense query embeddings using thread-safe `RwLock` and optimized iterator cosine scores. |
 
 ---
 
@@ -22,7 +23,7 @@ I build distributed agent runtimes, real-time voice streaming pipelines, sub-mil
 
 * **Languages:** Rust, Go, C# (.NET 8), Python, TypeScript, SQL, Bash
 * **Systems / Web Engines:** Tokio, Axum, YARP Proxy, ASP.NET Core, FastAPI, Gorilla WebSockets, Node.js
-* **Vector Ops / Cache:** Qdrant (Dense), BM25 (Sparse), Semantic Trigram Cache, Redis, MiniRedis (RESP)
+* **Vector Ops / Cache:** Qdrant (Dense), BM25 (Sparse), Semantic Trigram Cache, Redis, MiniRedis (RESP), SemanticCache (Rust)
 * **AI & Edge Compute:** WebGPU, WebWorkers, WASM, Transformers.js (v3), Deepgram API, OpenAI API
 
 ---
@@ -38,4 +39,4 @@ I build distributed agent runtimes, real-time voice streaming pipelines, sub-mil
 
 ## 📬 Connect with Me
 
-* Pinned Repositories: Check out [AgentMesh](https://github.com/fazalshai/agentmesh), [DeepRAG](https://github.com/fazalshai/deeprag), [BrowserMind](https://github.com/fazalshai/browsermind), [PromptShield](https://github.com/fazalshai/promptshield), [EchoAgent](https://github.com/fazalshai/echoagent), and [MiniRedis](https://github.com/fazalshai/miniredis).
+* Pinned Repositories: Check out [AgentMesh](https://github.com/fazalshai/agentmesh), [DeepRAG](https://github.com/fazalshai/deeprag), [BrowserMind](https://github.com/fazalshai/browsermind), [PromptShield](https://github.com/fazalshai/promptshield), [EchoAgent](https://github.com/fazalshai/echoagent), [MiniRedis](https://github.com/fazalshai/miniredis), and [SemanticCache](https://github.com/fazalshai/semanticcache).
