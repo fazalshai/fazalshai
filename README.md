@@ -40,3 +40,4 @@ I build distributed agent runtimes, real-time voice streaming pipelines, sub-mil
 ## 📬 Connect with Me
 
 * Pinned Repositories: Check out [AgentMesh](https://github.com/fazalshai/agentmesh), [DeepRAG](https://github.com/fazalshai/deeprag), [BrowserMind](https://github.com/fazalshai/browsermind), [PromptShield](https://github.com/fazalshai/promptshield), [EchoAgent](https://github.com/fazalshai/echoagent), [MiniRedis](https://github.com/fazalshai/miniredis), and [SemanticCache](https://github.com/fazalshai/semanticcache).
+
